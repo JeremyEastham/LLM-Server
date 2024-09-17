@@ -1,5 +1,8 @@
 @echo off
+setlocal
 call "%~dp0\venv\Scripts\activate.bat"
-python -m pip install pip --upgrade
-pip install -r "%~dp0\requirements.txt" --upgrade --upgrade-strategy eager
+echo Using virtual environment: %VIRTUAL_ENV%
+python -m pip -v install pip --upgrade
+pip -v install -r "%~dp0\requirements.txt" --upgrade
 deactivate
+endlocal
