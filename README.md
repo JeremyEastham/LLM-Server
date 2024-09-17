@@ -32,11 +32,11 @@ GROQ_API_KEY = "gsk_..."
 
 | Provider | Models | Rate Limits | Free Tier? |
 |----------|--------|-------------|------------|
-| Anthropic | [Models](https://docs.anthropic.com/en/docs/about-claude/models) | [Rate Limits](https://docs.anthropic.com/en/api/rate-limits) | No |
-| Cohere | [Models](https://docs.cohere.com/docs/models) | [Rate Limits](https://docs.cohere.com/docs/rate-limits) | Yes |
+| Anthropic (Claude) | [Models](https://docs.anthropic.com/en/docs/about-claude/models) | [Rate Limits](https://docs.anthropic.com/en/api/rate-limits) | No |
+| Cohere (Command) | [Models](https://docs.cohere.com/docs/models) | [Rate Limits](https://docs.cohere.com/docs/rate-limits) | Yes |
 | GitHub | [Models](https://github.com/marketplace/models) | [Rate Limits](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits) | Yes (Beta Waitlist) |
-| Google | [Models](https://ai.google.dev/pricing) | [Rate Limits](https://ai.google.dev/pricing) | Yes |
+| Google (Gemma/Gemini) | [Models](https://ai.google.dev/pricing) | [Rate Limits](https://ai.google.dev/pricing) | Yes |
 | Groq | [Models](https://console.groq.com/docs/models) | [Rate Limits](https://console.groq.com/settings/limits) | Yes |
 | HuggingFace | [Models](https://huggingface.co/models?inference=warm&pipeline_tag=text-generation) | [Rate Limits](https://huggingface.co/docs/api-inference/en/rate-limits) | Yes |
-| OpenAI | [Models](https://platform.openai.com/docs/models) | [Rate Limits](https://platform.openai.com/docs/guides/rate-limits/free-tier-rate-limits) | No |
+| OpenAI (ChatGPT) | [Models](https://platform.openai.com/docs/models) | [Rate Limits](https://platform.openai.com/docs/guides/rate-limits/free-tier-rate-limits) | No |
 | OpenRouter | [Models](https://openrouter.ai/docs/models) | [Rate Limits](https://openrouter.ai/docs/limits) | Yes (Free Models Available) |
