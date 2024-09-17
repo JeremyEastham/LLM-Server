@@ -1,10 +1,16 @@
+# More info: https://docs.litellm.ai/docs/proxy/configs
 
 litellm_settings:
-  drop_params: true
-  set_verbose: true
-  
+  drop_params: true # Required (Open WebUI sends extra parameters)
+  set_verbose: true # Optional (makes console output more detailed)
+
 
 model_list:
+# - model_name: "Name shown in Open WebUI"
+#   litellm_params:
+#     model: provider/ModelID from https://docs.litellm.ai/docs/providers
+#     api_key: os.environ/(variable name in api_keys.txt)
+
   - model_name: "[Anthropic] Claude 3 Haiku"
     litellm_params:
       model: anthropic/claude-3-haiku-20240307
