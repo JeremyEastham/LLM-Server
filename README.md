@@ -14,6 +14,8 @@ GROQ_API_KEY = "gsk_..."
 ...
 ```
 3. (Optional) Customize the providers and models available in the UI by editing `litellm_config.yaml` file in the `proxy` folder. Model IDs can be found in the [LiteLLM Providers List](https://docs.litellm.ai/docs/providers).
+> [!TIP]
+> Many models are hosted by several providers. For example, Cohere's Command R+ is hosted at `cohere/command-r-plus`, `github/cohere-command-r-plus`, `huggingface/CohereForAI/c4ai-command-r-plus`, and `openrouter/cohere/command-r-plus`. Add multiple providers that host the same model so you can **switch when you're rate limited**! You can change models or providers mid-chat in Open WebUI.
 4. Run `serve.bat`. This will start the LiteLLM Proxy Server on `http://localhost:4000` and Open WebUI on `http://localhost`. Leave both console windows running.
 5. Open `Launch Open WebUI` or visit `localhost` in your browser to start using your models!
 
