@@ -1,6 +1,6 @@
 # LLM Server
 
-Get up and running quickly using LLM APIs on Windows! This project contains several batch scripts to set up the the [LiteLLM](https://docs.litellm.ai/) proxy server and [Open WebUI](https://docs.openwebui.com/). This will allow you to interact with a wide variety of LLM APIs using a ChatGPT-like interface. Many of these APIs have free tiers so you can experiment with dozens of different LLMs!
+Get up and running quickly using LLM APIs on Windows! This project contains several batch scripts to set up the [LiteLLM](https://docs.litellm.ai/) proxy server and [Open WebUI](https://docs.openwebui.com/). This will allow you to interact with a wide variety of LLM APIs using a ChatGPT-like interface. Many of these APIs have free tiers so you can experiment with dozens of different LLMs!
 
 ### Getting Started
 0. Make sure Python 3.11+ is installed.
